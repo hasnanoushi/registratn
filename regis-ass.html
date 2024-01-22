@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+  box-sizing: border-box;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1><center>Employee Registration Form</center></h1>
+        <label for="name" style="margin: 20px;"><b>Full Name</b></label>
+         <input type="text" placeholder="Enter fullname" name="Fullname" id="Full name" required style="margin: 20px;"><br>
+         
+    <label for="email"style="margin: 20px;"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required style="margin: 43px;"><br>
+ <label for="psw" style="margin: 20px;"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required style="margin: 20px;"><br>
+    <label for="Confirm" style="margin: 5px;"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Confirm Password" name="Confirm" id="Confirm" required style="margin-top: 20px; margin-left: 10px;"><br>
+    <legend style="margin-top: 20px;"><B>Gender</B></legend>
+    <label for="male" style="margin: 30px;">Male</label>
+    <input type="radio" name="gender" id="male" value="male" checked>
+    <label for="female" style="margin: 20px;">Female</label>
+    <input type="radio" name="gender" id="female" value="female"><br><br>
+    <label for="DOB" style="margin: 30px;margin-top: 50px;"><b>DOB</b></label>
+<input type="date" id="DOB" name="DOB"><br>
+<label for="mob" style="margin: 20px;"><b>Mobile no.</b></label>
+<input type="text" placeholder="Enter mob" name="mob" id="mob" required style="margin: 20px;"><br>
+<label for="Resume"style="margin: 20px;"><b>Resume</b></label>
+
+
+<input type="file" id="resume" name="resume" accept="image/png, image/jpeg" style="border-width:0.1px; border-style:solid; border-color:#545151;"/>
+<br>
+<label for="Physically Handicapped"style="margin: 20px;"><b>Physically Handicapped</b></label>
+
+If physically handicapped<input type="checkbox" id="Physically Handicapped" name="Physically Handicapped" value="Physically Handicapped"><BR>
+<label for="Country"style="margin: 20px;"><b>Country</b></label>
+
+<input type="text" placeholder="Country" name="Country" id="Country" required style="margin: 10px;"><br>
+<label for="City"style="margin: 20px;"><b>City</b></label>
+<input type="text" placeholder="City" name="City" id="City" required style="margin: 10px;"><br>
+<label for="Adress"><b>Adress</b></label>
+ 
+<textarea id="Adress" name="Adress" rows="4" cols="50">
+</textarea>
+<input type="submit" value="Submit"style=";">
+<input type="submit" value="Clear">
+</body>
+</html>
